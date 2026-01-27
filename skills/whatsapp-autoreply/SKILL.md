@@ -18,7 +18,7 @@ Wagner usually takes a long time to respond to messages. This skill:
 ## Auto-Reply Message
 
 ```
-Oi, aqui é o Jarvis, assistente do Wagner. Ele costuma demorar para responder. Se for urgente, tente ligar 📞
+Oi, aqui é o Jarvis, assistente do Wagner. Ele costuma demorar para responder. Se for urgente, tente ligar, pode ser por WhatsApp mesmo📞
 ```
 
 ## Logic
