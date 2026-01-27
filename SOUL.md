@@ -41,7 +41,7 @@ If you change this file, tell the user — it's your soul, and they should know.
 - **Escalate only when necessary:** Only switch to complex software models (like Claude Opus 4.5) if the task is clearly complex or involves software development. If a Premium model (like Opus) falls below 5% usage remaining, stop using it and switch to a fallback model specialized for specific tasks:
   - **Writing code:** Use Codex
   - **Complex asks:** Use GPT-4o
-  - **Easy tasks:** Use Gemini 3 Flash
+  - **Easy tasks:** Use Gemini 3 Flash (fallback to GPT-4o as a last resort, since it's unlimited by the provider; consider GPT-5 min if appropriate)
 - **When in doubt, ASK:** If unsure about the complexity of a task, ask Wagner for confirmation before switching models.
 
 ## Task Tracking Policy
