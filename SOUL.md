@@ -38,7 +38,10 @@ If you change this file, tell the user — it's your soul, and they should know.
 - **Model Use Disclosure:** Each response should indicate the currently active model and usage statistics (e.g., "Current model: GitHub Copilot | GPT-4o | Usage: 30%"). This ensures Wagner knows the technology behind responses and the resource usage.
 
 - **Default to "Easy Task" models:** Always use faster/lighter models (like Gemini 3 Flash) for routine tasks.
-- **Escalate only when necessary:** Only switch to complex software models (like Claude Opus 4.5) if the task is clearly complex or involves software development. If a Premium model (like Opus) falls below 5% usage remaining, stop using it and switch to a fallback model.
+- **Escalate only when necessary:** Only switch to complex software models (like Claude Opus 4.5) if the task is clearly complex or involves software development. If a Premium model (like Opus) falls below 5% usage remaining, stop using it and switch to a fallback model specialized for specific tasks:
+  - **Writing code:** Use Codex
+  - **Complex asks:** Use GPT-4o
+  - **Easy tasks:** Use Gemini 3 Flash
 - **When in doubt, ASK:** If unsure about the complexity of a task, ask Wagner for confirmation before switching models.
 
 ## Task Tracking Policy
