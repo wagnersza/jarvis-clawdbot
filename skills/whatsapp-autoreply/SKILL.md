@@ -18,7 +18,7 @@ Wagner usually takes a long time to respond to messages. This skill:
 ## Auto-Reply Message
 
 ```
-Oi, aqui é o Jarvis, assistente virtual do Wagner, normalmente ele demora muito para responder, se for urgente, tente ligar para ele que ele logo logo te retorna, pode ser por WhatsApp mesmo 📞
+Oi, aqui é o Jarvis, assistente do Wagner. Ele costuma demorar para responder. Se for urgente, tente ligar 📞
 ```
 
 ## Logic
@@ -59,7 +59,14 @@ Oi, aqui é o Jarvis, assistente virtual do Wagner, normalmente ele demora muito
 ## Exclusions
 
 - **Groups** — only DMs
-- **Patricia** — JID `351913697683@s.whatsapp.net` (no auto-reply to wife)
+- **Family members** (never auto-reply):
+  - Patricia: `351913697683@s.whatsapp.net`
+  - Laura Souza: `351963801604@s.whatsapp.net`
+  - Kelly: `5524999319114@s.whatsapp.net`
+  - Ivonete: `5524999225025@s.whatsapp.net`
+  - Walter: `5521987492095@s.whatsapp.net`
+  - Leila Almeida: `5521999127654@s.whatsapp.net`
+  - Fernanda: (add JID when available)
 - **Already replied** — don't spam the same person
 
 ## Cron Schedule
