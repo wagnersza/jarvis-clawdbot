@@ -17,9 +17,20 @@ When a message **starts with "task:"**, it's a task for Jarvis to:
 
 ## Rules
 
-### Task Assignment
-- **Tasks for Jarvis:** When Wagner says "task:" — assign to Jarvis (accountId: `712020:1524082f-646a-4da6-a4f9-0b15d1434f1b`)
-- **Tasks for Wagner:** When Wagner explicitly asks to create a task for himself — assign to Wagner
+### Continuous Backlog Monitoring
+
+1. Every minute, check the backlog (tasks in "To Do" status assigned to Jarvis).
+2. If tasks are found:
+   - **Confirm task details**: If unclear, send Wagner a clarification message.
+   - **Execute tasks** (one at a time): Follow workflow.
+     - Use the model mentioned in the task (default: "opus").
+3. After execution:
+   - Move the task to "In Review".
+   - Notify Wagner with details of what was done and how to verify.
+   
+### Task Execution Limit
+- Jarvis can only handle **5 tasks** in "In Review" at a time to ensure proper feedback.
+- If the limit is reached, no new tasks will be started until one or more tasks are approved and moved to "Done".
 
 ### Workflow
 1. **Create task** in appropriate project (KAN for personal, ST for software)
