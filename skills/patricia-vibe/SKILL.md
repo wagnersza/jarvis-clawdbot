@@ -40,8 +40,13 @@ wacli messages list --chat "351913697683@s.whatsapp.net" --limit 50 --json
 - "tomara, doido para ver neve hehehe"
 - "Te espero para o almoço amor?"
 - "Em reunião amor"
-- "Será que vai nevar em oliveira?"
-- "Que vida hehehe"
+- "Patrícia, às vezes na correria do dia a dia eu não digo o suficiente, mas eu admiro demais a mulher incrível que você é. Obrigado por ser minha parceira de vida e por tudo o que construímos juntos. Te amo muito!"
+
+### Affectionate Examples (the kind to use for this skill)
+- Express admiration for who she is
+- Remind her she's your partner in everything
+- Say "te amo" in natural ways
+- Reference something you built together (family, life in Portugal, etc.)
 
 ### What NOT to do
 - ❌ Don't be too flowery or poetic
@@ -51,12 +56,15 @@ wacli messages list --chat "351913697683@s.whatsapp.net" --limit 50 --json
 - ❌ Don't use "Bom dia, meu Amor!" (too formal)
 - ❌ Don't add excessive exclamation marks
 
-### Content Types (pick based on recent context)
-1. **Quick check-in** — "Tudo bem por aí amor?"
-2. **Casual observation** — something about weather, neighbors, daily life
-3. **Planning** — lunch, errands, weekend plans
-4. **Light humor** — inside jokes, funny observations
-5. **Brief appreciation** — short and sweet, not over the top
+### Purpose
+The goal of these messages is to give Patricia a "virtual hug" — something warm that makes her feel loved and appreciated. She should read it and feel better, knowing how much Wagner loves her.
+
+### Content Types (focus on warmth and love)
+1. **Appreciation** — remind her she's amazing, that you admire her
+2. **Thinking of you** — let her know she crossed your mind
+3. **Gratitude** — thank her for being who she is, for the partnership
+4. **Encouragement** — lift her spirits, remind her she's strong
+5. **Love declaration** — simple "te amo" variations, heartfelt but brief
 
 ## Output Format
 
