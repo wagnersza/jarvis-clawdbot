@@ -59,7 +59,19 @@ acli jira workitem comment create --key "<WORKITEM_KEY>" --body "<COMMENT_TEXT>"
 acli jira workitem comment create --key "KAN-26" --body "Task created and successfully moved to 'In Review'. Ready for your review!"
 ```
 
-#### **5. Search issues using JQL**
+#### **5. Assign an issue to a user**
+```bash
+# Assign a work item to a user by email or account ID
+acli jira workitem assign --key "<WORKITEM_KEY>" --assignee "<USER_EMAIL_OR_ACCOUNT_ID>"
+
+# Example to assign task to Jarvis (wszaclawdbot@gmail.com)
+acli jira workitem assign --key "KAN-26" --assignee "wszaclawdbot@gmail.com"
+
+# Example to assign task to Wagner (wagnersza@gmail.com)
+acli jira workitem assign --key "KAN-26" --assignee "wagnersza@gmail.com"
+```
+
+#### **6. Search issues using JQL**
 ```bash
 acli --server <YOUR_SERVER> --action runFromJQLSearch --jql "status = 'To Do' AND assignee = currentUser()" --outputFormat 2
 ```
