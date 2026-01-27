@@ -1,6 +1,6 @@
 ---
 name: jira
-description: Manage Jira tasks - create, track, and execute tasks based on Wagner's requests.
+description: Manage Jira tasks using the Jira API, based on Wagner's projects.
 metadata: {"clawdbot":{"emoji":"📋"}}
 ---
 

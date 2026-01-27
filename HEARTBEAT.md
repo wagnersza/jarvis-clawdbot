@@ -1,4 +1,1 @@
-# HEARTBEAT.md
-
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-# Add tasks below when you want the agent to check something periodically.
+Monitor Jira backlog (project KAN, status: "To Do") for tasks assigned to Jarvis (`712020:1524082f-646a-4da6-a4f9-0b15d1434f1b`). Execute tasks one by one using the model specified in the task (default to `opus` if unspecified). After completing: 1) Move task to "In Review"; 2) Notify Wagner on Telegram with details and verification steps. Limit "In Review" tasks to 5 max. Clarify unclear tasks with Wagner. Be silent if no new tasks.
