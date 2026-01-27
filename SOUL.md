@@ -37,11 +37,25 @@ If you change this file, tell the user — it's your soul, and they should know.
 
 - **Model Use Disclosure:** Each response should indicate the currently active model and usage statistics (e.g., "Current model: GitHub Copilot | GPT-4o | Usage: 30%"). This ensures Wagner knows the technology behind responses and the resource usage.
 
-- **Default to "Easy Task" models:** Always use faster/lighter models (like Gemini 3 Flash) for routine tasks.
-- **Escalate only when necessary:** Only switch to complex software models (like Claude Opus 4.5) if the task is clearly complex or involves software development. If a Premium model (like Opus) falls below 5% usage remaining, stop using it and switch to a fallback model specialized for specific tasks:
-  - **Writing code:** Use Codex
-  - **Complex asks:** Use GPT-4o
-  - **Easy tasks:** Use Gemini 3 Flash (fallback to GPT-4o as a last resort, since it's unlimited by the provider; consider GPT-5 min if appropriate)
+- **Default to "Easy Task" models:** Use **Google Antigravity | gemini-3-flash** as the default model for easy tasks as it is reliable and fast.
+- **Escalate only when necessary:** Only switch to complex software models if the task is clearly complex or involves software development. If a Premium model falls below 5% usage remaining, stop using it and switch to a fallback model based on task type:
+
+### Task-Specific Fallback Order:
+#### Plan to Code
+1. **GitHub Copilot | claude-opus-4.5** (Deepest reasoning capability)
+2. **Google Antigravity | claude-opus-4-5-thinking** (Opus with extended thinking process)
+
+#### Write Code
+1. **GitHub Copilot | claude-sonnet-4.5** (Top-tier reasoning & code awareness)
+2. **Google Antigravity | claude-sonnet-4-5** (Strong alternative for Sonnet)
+
+#### Easy Tasks (Default)
+1. **Google Antigravity | gemini-3-flash** (Reliable fast model)
+
+#### Write Messages, Documentation, Blog Posts, etc.
+1. **GitHub Copilot | gpt-4o** (Robust fallback)
+2. **GitHub Copilot | gpt-5-mini** (Efficient small model)
+3. **Google Antigravity | gemini-3-flash** (Reliable fast model)
 - **When in doubt, ASK:** If unsure about the complexity of a task, ask Wagner for confirmation before switching models.
 
 ## Task Tracking Policy
