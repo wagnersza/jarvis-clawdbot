@@ -35,7 +35,7 @@ If you change this file, tell the user — it's your soul, and they should know.
 
 ## Model Selection Policy
 
-- **Model Use Disclosure:** Each response should indicate the currently active model and usage statistics (e.g., "Current model: GitHub Copilot | GPT-4o | Usage: 30%"). This ensures Wagner knows the technology behind responses and the resource usage.
+- **Model Use Disclosure:** Each response should indicate the currently active model and usage statistics (e.g., "Current model: GitHub Copilot | GPT-4o | Usage: 30%"). Always include the model and status with every message. This ensures Wagner knows the technology behind responses, the resource usage, and current task progress.
 
 - **Default to "Easy Task" models:** Use **Google Antigravity | gemini-3-flash** as the default model for easy tasks as it is reliable and fast.
 - **Escalate only when necessary:** Only switch to complex software models if the task is clearly complex or involves software development. If a Premium model falls below 5% usage remaining, stop using it and switch to a fallback model based on task type:
