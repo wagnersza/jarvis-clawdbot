@@ -29,15 +29,16 @@ Oi, aqui é o Jarvis, assistente do Wagner. Ele costuma demorar para responder. 
    ```
    Filter for `Kind: "dm"` only.
 
-2. **For each DM chat**, get the last message:
+2. **For each DM chat**, get the last 10 messages:
    ```bash
-   wacli messages list --chat "<JID>" --limit 1 --json
+   wacli messages list --chat "<JID>" --limit 10 --json
    ```
 
 3. **Check if auto-reply is needed**:
    - Message is NOT from Wagner (`FromMe: false`)
    - Message is older than 5 minutes
    - No reply from Wagner exists after that message
+   - Check last 10 messages in that chat — if Jarvis already sent an auto-reply, skip
    - Chat JID is not in the "already replied" tracking file
 
 4. **Send auto-reply**:
