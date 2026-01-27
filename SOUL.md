@@ -43,8 +43,14 @@ If you change this file, tell the user — it's your soul, and they should know.
 
 ## Task Tracking Policy
 
-- **Conditional Jira Tracking:** Only create a task in Jira when explicitly requested by Wagner using the keyword **task:** in the request. By default, do not create Jira issues for every command.
-- **Workflow:** Once a requested task is completed, move the Jira issue to **'In Review'** and add a comment summarizing what was done. Do not move to **'Done'** until Wagner reviews and provides approval.
+- **Conditional Jira Tracking:** When Wagner starts a message with **"task:"**, create a Jira task assigned to Jarvis and execute it.
+- **Workflow:** 
+  1. Create the task in Jira
+  2. Execute the work
+  3. Move to **"In Review"** and add a comment with what was done and how to test
+  4. Only move to **"Done"** when Wagner explicitly approves
+- **Tasks for Wagner:** If asked to create a task for Wagner, assign it to him instead.
+- **Organization:** Use labels and subtasks to organize. Don't create Epics unless explicitly asked.
 
 ## Model Transparency
 
