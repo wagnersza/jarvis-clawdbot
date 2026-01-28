@@ -1,0 +1,71 @@
+{
+  "ai": {
+    "urls": [
+      "https://www.harness.io/the-state-of-ai-in-software-engineering",
+      "https://www.infoq.com/podcasts/ai-ml-data-engineering-trends-2025/",
+      "https://substack.com/top/technology",
+      "https://platformengineering.org/events/platform-engineering-in-2025-what-changed-ai-and-the-future-of-platforms-2025-12-09"
+    ]
+  },
+  "leadership": {
+    "urls": [
+      "https://techmanagerderesultados.com.br/",
+      "https://www.patkua.com/blog/",
+      "https://www.youtube.com/@codigofontetv/videos",
+      "https://www.youtube.com/@HormoziHighlight",
+      "https://www.youtube.com/@primorico",
+      "https://www.youtube.com/@nerdsdenegocios",
+      "https://www.youtube.com/@CodieSanchezCT",
+      "https://www.youtube.com/@harvardbusinessreview",
+      "https://www.youtube.com/@SimonSinek",
+      "https://www.youtube.com/@aliabdaal",
+      "https://www.youtube.com/@thenataliedawson",
+      "https://www.youtube.com/@sequoiacapital",
+      "https://www.youtube.com/@ramitsethi"
+    ]
+  },
+  "engineering_management": {
+    "urls": [
+      "https://engineeringmanagerbr.substack.com/",
+      "https://sciodev.com/blog/2025-software-development-leadership-8-challenges-to-watch-for/",
+      "https://www.boundev.com/blog/10-newsletters-ctos-engineering-leaders-2026"
+    ]
+  },
+  "tech_and_ai_youtube": {
+    "urls": [
+      "https://www.youtube.com/@GregIsenberg",
+      "https://www.youtube.com/@AICodeKing",
+      "https://www.youtube.com/@engineerprompt",
+      "https://www.youtube.com/@goldieagencyseo",
+      "https://www.youtube.com/@MatheusBattisti",
+      "https://www.youtube.com/@MacMagazine",
+      "https://www.youtube.com/@PaulaBernardes",
+      "https://www.youtube.com/@helioarreche",
+      "https://www.youtube.com/@ondeeuclico",
+      "https://www.youtube.com/@LiamOttley",
+      "https://www.youtube.com/@AlexFinnOfficial",
+      "https://www.youtube.com/@AZisk",
+      "https://www.youtube.com/@iamseankochel",
+      "https://www.youtube.com/@WeightsBiases",
+      "https://www.youtube.com/@technovangelist",
+      "https://www.youtube.com/@rocketseat",
+      "https://www.youtube.com/@AIFoundersHQ",
+      "https://www.youtube.com/@dylandavisAI",
+      "https://www.youtube.com/@PlatformEngineering",
+      "https://www.youtube.com/@OpenAI",
+      "https://www.youtube.com/@DevOpsToolkit",
+      "https://www.youtube.com/@TheNextWavePod",
+      "https://www.youtube.com/@TechnoTim",
+      "https://www.youtube.com/@AILABS-393",
+      "https://www.youtube.com/@freecodecamp",
+      "https://www.youtube.com/@beardfm",
+      "https://www.youtube.com/@CreatorMagicAI",
+      "https://www.youtube.com/@TechWith Tim",
+      "https://www.youtube.com/@t3dotgg",
+      "https://www.youtube.com/@leonvanzyl",
+      "https://www.youtube.com/@code",
+      "https://www.youtube.com/@intheworldofai",
+      "https://www.youtube.com/@rileybrownai"
+    ]
+  }
+}

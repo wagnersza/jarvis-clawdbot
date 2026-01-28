@@ -1,0 +1,10 @@
+{
+  "name": "content-researcher",
+  "version": "1.0.0",
+  "description": "Content Researcher skill for Clawdbot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
